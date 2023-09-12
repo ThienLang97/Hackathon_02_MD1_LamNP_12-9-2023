@@ -1,0 +1,12 @@
+let cards = [];
+function addCards() {
+let cardNumber = document.getElementById('cardNumber').value;
+let expiryDate = document.getElementById('expiryDate').value;
+let cvc = document.getElementById('cvc').value;
+let card = {
+cardNumber: cardNumber,
+expiryDate: expiryDate,
+cvc: cvc
+};
+cards.push(card)
+}

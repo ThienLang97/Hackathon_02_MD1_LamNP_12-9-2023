@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#imgs img {
+    width: 70px;
+    height: 30px; 
+      
+}
+h1{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#imgs {
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    border: 3px groove;
+    width: 500px;
+    height: 450px;
+    margin-left: 200px;
+    
+}
+.textzz{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.typing {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+.cvc {
+    margin-left: 60px;
+    
+}
+.exp {
+margin-left: 20px ;
+}
+.subbut input {
+    width: 80px;
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 70px;
+    background-color: aqua;
+}
+.tb table {
+    margin-left: 750px;
+    
+}

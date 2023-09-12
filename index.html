@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Select Card</h1>
+        <div id="imgs">
+            <button><img src="./images/visa.jpg"></button>
+            <button><img src="./images/paypal.jpg"></button>
+            <button><img src="./images/master card.jpg"></button>
+            <button><img src="./images/american express.jpg"></button>
+            <button><img src="./images/discover.jpg"></button>
+        </div>
+        <div class="textzz">
+            <p>Card number</p>
+            <input type="text" id="cardNumber" style="width: 400px;height: 30px;">
+            <div class="typing">
+                <div class="exp">
+                    <p>Expiry Date</p>
+                    <input type="month" id="expiryDate" style="height: 30px;">
+                </div>
+                <div class="cvc">
+                    <p>CVC/CVV</p>
+                    <input type="password" id="cvc" style="height: 30px;">
+                </div>
+            </div>
+        </div>
+        <div class="subbut">
+            <input type="button" value="Submit" onclick="addCards()">
+        </div>
+    </div>
+    <div class="tb">
+        <table border="1px"  cellpadding="15px" cellspacing="5px">
+            <thead>
+                <tr>
+                    <th>Card img</th>
+                    <th>Card number</th>
+                    <th>Expiry Date</th>
+                    <th>CVV</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="CardBody">
+
+            </tbody>
+        </table>
+    </div>
+<script src="./index.js"></script>
+</body>
+
+</html>
